@@ -11,7 +11,7 @@ let dado2 = ["./img/Dado2-1trago.svg",
     "./img/Dado2-bailar.svg",
     "./img/Dado2-cantar.svg",
     "./img/Dado2-mediotrago.svg",
-    "./img/Dado2-NoseToma.svg",
+    "./img/Dado2-Nosetoma.svg",
  ];
 
 
