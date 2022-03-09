@@ -40,7 +40,7 @@ function roll(){
         document.querySelector("#dado_2").setAttribute
         ("src", dado2[dieTwovalue]);
 
-        document.querySelector("#Total").innerHTML = "Reto a cumplir" ;
+        document.querySelector("#Total").innerHTML = "Actividad a cumplir" ;
 
         console.log(Total);
 

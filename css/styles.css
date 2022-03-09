@@ -15,13 +15,13 @@ body{
 
 
 .contenedor{
-    width: 400px;
+    width: 380px;
     padding: 50px;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    background-image: url(./img/bar-BG.jpg);
+    background-image: url(/img/bar-BG.jpg);
     box-shadow: 0 10px 30px rgba(50,50,30, 100);
     border-radius: 10px;  
     display: flex;
@@ -35,8 +35,8 @@ body{
     justify-content: space-between;
 }
 p{
-    font-size: 24px;
-    border: 2px solid rgb(238, 55, 55);
+    font-size: 18px;
+    border: 2px solid whitesmoke;
     padding: 5px 90px;
     margin: 20px;
     border-radius: 6px;
