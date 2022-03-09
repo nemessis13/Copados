@@ -1,4 +1,5 @@
-let dado1 = ["./img/Dado1-ellas.svg",
+let dado1 = [
+    "./img/Dado1-ellas.svg",
     "./img/Dado1-ellos.svg",
     "./img/Dado1-nadie.svg",
     "./img/Dado1-reto.svg",
@@ -6,7 +7,8 @@ let dado1 = ["./img/Dado1-ellas.svg",
     "./img/Dado1-tu.svg",
  ];
 
-let dado2 = ["./img/Dado2-1trago.svg",
+let dado2 = [
+    "./img/Dado2-1trago.svg",
     "./img/Dado2-2tragos.svg",
     "./img/Dado2-bailar.svg",
     "./img/Dado2-cantar.svg",
@@ -39,6 +41,7 @@ function roll(){
         document.querySelector("#dado_2").setAttribute
         ("src", dado2[dieTwovalue]);
 
+        document.querySelector("#Actividad").innerHTML = "La actividad es:" + ( (dieOnevalue +1 ) + (dieTwovalue +1) );
 
 
     },
