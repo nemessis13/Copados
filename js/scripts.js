@@ -16,7 +16,6 @@ let dado2 = [
     "./img/Dado2-nosetoma.svg",
  ];
 
-
  let dado = document.querySelectorAll("img");
 
 function roll(){
@@ -30,8 +29,8 @@ function roll(){
 
         });
 
-        let dieOnevalue = Math.floor(Math.random()*6);
-        let dieTwovalue = Math.floor(Math.random()*6);
+        let dieOnevalue = Math.floor(Math.random() *6);
+        let dieTwovalue = Math.floor(Math.random() *6);
 
         console.log(dieOnevalue,dieTwovalue);
 
@@ -41,9 +40,11 @@ function roll(){
         document.querySelector("#dado_2").setAttribute
         ("src", dado2[dieTwovalue]);
 
-        document.querySelector("#Actividad").innerHTML = "La actividad es:" + ( (dieOnevalue +1 ) + (dieTwovalue +1) );
+        document.querySelector("#Total").innerHTML = "Reto a cumplir" ;
 
+        console.log(Total);
 
+        
     },
     1000
     );
